@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Replace with your Render backend URL
-  const backendURL = "https://your-backend.onrender.com";
+  const backendURL = "https://adsshareearn-app.onrender.com";
   fetch(`${backendURL}/posts`)
     .then(response => response.json())
     .then(data => {
